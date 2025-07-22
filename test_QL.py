@@ -112,7 +112,7 @@ if __name__ == '__main__':
     print(f"Başlangıç Zamanı: {start_time.strftime('%H:%M:%S')}")
     
     run(100, is_training=False, render=True)
-    #run(10000, is_training=True, render=False)
+    #run(15000, is_training=True, render=False)
     
     end_time = datetime.datetime.now()
     print(f"Bitiş Zamanı: {end_time.strftime('%H:%M:%S')}")
